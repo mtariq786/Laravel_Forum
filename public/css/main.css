@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.profile-name{
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+.profile-info{
+  margin: 30px 25%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.profile-info-text{
+  font-size: 17px;
+  color: #333;
+}
+.profile-info-text span{
+  font-weight: bold;
+}
+
+.posts{
+  margin: 3% 15%;
+}
+.post-grid-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  grid-template-rows: 30vh;
+}
+.content{
+  border: 1px solid #222
+}
+.btn-container{
+  text-align: center;
+  margin-bottom: 25px
+}
+.newpost{
+  width: 150px;
+  height: 30px;
+  background-color: #2ECAF8;
+  color: #fff;
+  outline: none;
+  border:none;
+  font-size: 18px;
+}
+.editprof{
+  width: 300px;
+  height: 40px;
+  background-color: #2ECAF8;
+  color: #fff;
+  outline: none;
+  border:none;
+  font-size: 20px;
+}
+.form-control{
+  background-color: #fff
+}
+.container23{
+  padding-top: 10px;
+  background-color: #236F8A
+}
+.cardquestion{
+  border-bottom: none;
+  border-bottom: 5px solid #6AB7D2;
+  padding-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.card-comments{
+
+  border-bottom: 2px solid #6AB7D2;
+}
+.button-create {
+  text-align: center;
+  margin-top: 20px
+}
+.button-create button{
+  width: 400px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.answer-card{
+  border: none;
+  border-radius: 0;
+}
+.answer-input{
+  height: 500px;
+}
+.content1{
+  height: 600px;
+}
